@@ -1,0 +1,2 @@
+User-agent: *
+Sitemap: https://airasia-7c240.web.app/sitemap.xml
