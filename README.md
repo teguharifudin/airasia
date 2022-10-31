@@ -23,7 +23,7 @@ $ airasia ls    # OR `airasia list`
 
 Output:
 
-> SAP, SEO, Firebase, Firebase Hosting, Cloud Firestore, Flamelink, HTML, CSS, Sass, Bootstrap, JavaScript, Git, XML, Mailchimp, Chatwoot
+> SPA, SEO, Firebase, Firebase Hosting, Cloud Firestore, Flamelink, HTML, CSS, Sass, Bootstrap, JavaScript, Git, XML, Mailchimp, Chatwoot
 
 ## Contributing
 
@@ -40,3 +40,7 @@ $ git clone git@github.com:teguharifudin/airasia.git
 $ cd airasia/
 $ go run *.go
 ```
+
+Demo:
+
+> https://airasia-7c240.web.app/
