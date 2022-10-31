@@ -23,7 +23,7 @@ $ airasia ls    # OR `airasia list`
 
 Output:
 
-> SAP, SEO, Firebase, Firebase Hosting, Cloud Firestore, Flamelink, HTML, CSS, Sass, Bootstrap, NoSQL, JavaScript, Git, XML, Mailchimp, Chatwoot
+> SAP, SEO, Firebase, Firebase Hosting, Cloud Firestore, Flamelink, HTML, CSS, Sass, Bootstrap, JavaScript, Git, XML, Mailchimp, Chatwoot
 
 ## Contributing
 
