@@ -1,0 +1,7 @@
+User-agent: * 
+Disallow: /css/
+Disallow: /fonts/
+Disallow: /images/
+Disallow: /js/
+Disallow: /scss/
+Sitemap: https://airasia-7c240.web.app/sitemap.xml

@@ -1,0 +1,23 @@
+{
+  "files": {
+    "main.css": "/static/css/main.b9d96596.css",
+    "main.js": "/static/js/main.e3f821b8.js",
+    "static/media/icomoon.svg?10si43": "/static/media/icomoon.9cc47145c3e61b03d8b8.svg",
+    "static/media/icomoon.eot?10si43": "/static/media/icomoon.8b8f9ff3c2746bcd479b.eot",
+    "static/media/icomoon.woff?10si43": "/static/media/icomoon.ea68cea3e4f47f1e3338.woff",
+    "static/media/icomoon.ttf?10si43": "/static/media/icomoon.46b5067758e501c1cc60.ttf",
+    "static/media/Flaticon.svg": "/static/media/Flaticon.2c9e612870f4e0dbeba0.svg",
+    "index.html": "/index.html",
+    "static/media/Flaticon.eot": "/static/media/Flaticon.39766d0d2cff492fde57.eot",
+    "static/media/Flaticon.ttf": "/static/media/Flaticon.7155808afd319949b652.ttf",
+    "static/media/logo.svg": "/static/media/logo.ed65eb36aa01ee2a783a7a0124b1470c.svg",
+    "static/media/Flaticon.woff": "/static/media/Flaticon.7a35fbfa499ce0d63013.woff",
+    "static/media/Flaticon.woff2": "/static/media/Flaticon.a21e28ab89532b498a94.woff2",
+    "main.b9d96596.css.map": "/static/css/main.b9d96596.css.map",
+    "main.e3f821b8.js.map": "/static/js/main.e3f821b8.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.b9d96596.css",
+    "static/js/main.e3f821b8.js"
+  ]
+}
