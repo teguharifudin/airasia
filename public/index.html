@@ -4,10 +4,10 @@
     <meta charset="utf-8" />
     <link rel="icon" href="%PUBLIC_URL%/favicon.ico" />
     <meta name="viewport" content="width=device-width, initial-scale=1" />
-    <meta name="theme-color" content="#000000" />
+    <meta name="theme-color" content="#ffffff" />
     <meta
       name="description"
-      content="Web site created using create-react-app"
+      content="Super Travel Fest 2022! Any deals with Airasia promotions and selected hotels. Enjoy unlimited flights on food delivery, ride & more!"
     />
     <link rel="apple-touch-icon" href="%PUBLIC_URL%/logo192.png" />
     <!--
@@ -24,20 +24,234 @@
       work correctly both with client-side routing and a non-root public URL.
       Learn how to configure a non-root public URL by running `npm run build`.
     -->
-    <title>React App</title>
-  </head>
-  <body>
-    <noscript>You need to enable JavaScript to run this app.</noscript>
-    <div id="root"></div>
-    <!--
-      This HTML file is a template.
-      If you open it directly in the browser, you will see an empty page.
-
-      You can add webfonts, meta tags, or analytics to this file.
-      The build step will place the bundled scripts into the <body> tag.
-
-      To begin the development, run `npm start` or `yarn start`.
-      To create a production bundle, use `npm run build` or `yarn build`.
+    <title>airasia Promotions 2022 | Travel Deals on Flights, Hotels & more!</title>
+    <meta name="robots" content="index, follow"> 
+    <link rel="alternate" href="https://airasia-7c240.web.app" hreflang="x-default">
+    <link rel="alternate" href="https://airasia-7c240.web.app/id" hreflang="id-ID">
+    <meta name="copyright" content="Copyright © airasia 2022">
+    <meta name="web_author" content="Teguh Arief">
+    <link rel="canonical" href="https://airasia-7c240.web.app">
+    <script defer src="/__/firebase/9.10.0/firebase-app-compat.js"></script>
+    <script defer src="/__/firebase/9.10.0/firebase-auth-compat.js"></script>
+    <script defer src="/__/firebase/9.10.0/firebase-database-compat.js"></script>
+    <script defer src="/__/firebase/9.10.0/firebase-firestore-compat.js"></script>
+    <script defer src="/__/firebase/9.10.0/firebase-functions-compat.js"></script>
+    <script defer src="/__/firebase/9.10.0/firebase-messaging-compat.js"></script>
+    <script defer src="/__/firebase/9.10.0/firebase-storage-compat.js"></script>
+    <script defer src="/__/firebase/9.10.0/firebase-analytics-compat.js"></script>
+    <script defer src="/__/firebase/9.10.0/firebase-remote-config-compat.js"></script>
+    <script defer src="/__/firebase/9.10.0/firebase-performance-compat.js"></script>
+    <!-- 
+      initialize the SDK after all desired features are loaded, set useEmulator to false
+      to avoid connecting the SDK to running emulators.
     -->
+    <script defer src="/__/firebase/init.js?useEmulator=true"></script>
+    <link href="https://fonts.googleapis.com/css?family=Roboto:300,400,700,900" rel="stylesheet">
+    <link href="%PUBLIC_URL%/src/css/jquery.mb.YTPlayer.min.css" media="all" rel="stylesheet" type="text/css">
+  </head>
+  <body data-spy="scroll" data-target=".site-navbar-target" data-offset="300">
+    <div class="site-wrap">
+      <div class="site-mobile-menu site-navbar-target">
+        <div class="site-mobile-menu-header">
+          <div class="site-mobile-menu-close mt-3">
+            <span class="icon-close2 js-menu-toggle"></span>
+          </div>
+        </div>
+        <div class="site-mobile-menu-body"></div>
+      </div>
+      <div id="root"></div>
+      <a id="bgndVideo" class="player" data-property="{videoURL:'http://youtu.be/9GbuyMcDOcg',showYTLogo:false, showAnnotations: false, showControls: false, cc_load_policy: false, containment:'#home-section',autoPlay:true, mute:true, startAt:10, stopAt: 36, opacity:1}"></a>
+      <div class="intro-section" id="home-section" style="background-color: #ccc;">
+        <div class="container"></div>
+      </div>
+      <div class="site-section section-2" id="promotions-section">
+        <div class="container">
+          <div class="row">
+            <div class="col-lg-12 mb-5">
+              <h1 class="section-title">airasia Promotions 2022</h1>
+              <p style="color:black;text-align:left">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nullam sollicitudin pharetra nulla, quis luctus justo eleifend quis. Praesent finibus tellus eu ex malesuada rhoncus. Donec sit amet nisl eros. Ut imperdiet justo vel mauris porta vestibulum. Ut a justo ut libero semper accumsan vel sed leo. Sed nec imperdiet ligula, in ullamcorper sapien. Maecenas lacinia neque in nunc ultrices, eget accumsan risus porta.<span id='points1'></span></p><span id="moreText1" style="color:black;display:none"><p style="color:black;text-align:left">Suspendisse potenti. Morbi efficitur imperdiet sollicitudin. Mauris ut vestibulum ante. Cras tristique, risus a egestas molestie, magna lectus bibendum lacus, in pellentesque quam justo sed ipsum. In pharetra fermentum quam a imperdiet. Nulla facilisi. Etiam pretium tristique arcu. Praesent magna est, egestas vel pharetra ac, viverra vel leo. Fusce vel placerat ex. Sed quis elit eu urna congue iaculis. Donec in porttitor ex, vitae fringilla felis. Quisque elit magna, egestas non odio vitae, vulputate dapibus lacus. Vestibulum ante ipsum primis in faucibus orci luctus et ultrices posuere cubilia curae; Maecenas suscipit, felis nec commodo sagittis, eros est pulvinar velit, et condimentum diam neque id libero. </p></span> <span onclick="toggleText1()" id="textButton1" style="color:black;cursor:pointer">[ Read more ]</span>
+            </div>
+          </div>
+        </div>
+        <!-- START CMS--><div class="outer-wrapper"><div class="inner-wrapper" id="products__container"></div></div><!-- END CMS -->
+      </div>
+      <div class="site-section" id="services-section">
+        <div class="container">
+          <div class="row justify-content-center">
+            <div class="col-lg-12">
+              <h3 class="section-title">FAQs</h3>
+              <div class="tab">
+                <input id="tab-1" type="radio" name="tabr">
+                <label for="tab-1">What types of airasia promotions are available?</label>
+                <div class="content"><p>Usually, some of these promotions involve airasia vouchers, discounts, deals and promo codes on various airasia products such as airasia flights, airasia hotels and more.</p></div>
+              </div>
+              <div class="tab">
+                <input id="tab-2" type="radio" name="tabr">
+                <label for="tab-2">What are the airasia flight promotions for 2022?</label>
+                <div class="content"><p>All the available flight promotions are listed on this page. Please choose and click from the promo links above to save on fare flights, last minute flight deals and many more. Cheap prices await!</p></div>
+              </div>
+              <div class="tab">
+                <input id="tab-3" type="radio" name="tabr">
+                <label for="tab-3">How can I get updates for future airasia Super Sale, offers, discounts, promotions and deals?</label>
+                <div class="content"><p>You can create an account on airasia for free and get weekly newsletters that contain information on the latest airasia happenings and exclusive offers, as well as exclusive email invitations to sales and promotions before they go live for the general public.</p></div>
+              </div>
+              <div class="tab">
+                <input id="tab-4" type="radio" name="tabr">
+                <label for="tab-4">How do I use the airasia flights Promo Code?</label>
+                <div class="content"><p>You just need to apply it in the Promo Code field right at the flight you're trying to book/purchase. You may also apply it at the Promo Code field in the payment page.</p></div>
+              </div>
+              <div class="tab">
+                <input id="tab-5" type="radio" name="tabr">
+                <label for="tab-5">Is there a limit to the number of airasia promotions that I can utilise?</label>
+                <div class="content"><p>If you are utilizing promotions for different airasia products, there should be no limit unless stated otherwise in the terms and conditions. However, multiple promotions for a single airasia product usually do not apply unless stated otherwise.</p></div>
+              </div>
+              <div class="tab">
+                <input id="tab-6" type="radio" name="tabr">
+                <label for="tab-6">Is it possible to get a refund for any airasia flights purchased using an airasia promo code, voucher or discount?</label>
+                <div class="content"><p>Usually, airasia products purchased are non-refundable with the exception of special cases (disruptions from our end, etc.). If there is an issue pertaining to the airasia promo code, voucher or discount, please contact our support team here for more information.</p></div>
+              </div>
+              <div class="tab">
+                <input id="tab-7" type="radio" name="tabr">
+                <label for="tab-7">Why does my airasia flight discount, voucher or promo code not work at times?</label>
+                <div class="content"><p>Issues may be caused by various reasons such as typos, expiry date, a limited number of usages (first-come first-served basis), technical issues, etc. In any case, please contact our airasia support team here for clarification.</p></div>
+              </div>
+              <div class="tab">
+                <input id="tab-8" type="radio" name="tabr">
+                <label for="tab-8">If I’m having an issue involving any airasia flight promotions, who should I contact?</label>
+                <div class="content"><p>You can always visit our support site here and enquire about any issues that you may have.</p></div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <div class="site-section mt-5" id="call-to-action">
+        <div class="container">
+          <div class="row justify-content-center">
+            <div class="col-lg-7">
+              <h3 class="section-title">Customer Service</h3>
+              <p style="color:black">For detail information related to the promo, please contact us by telephone +6012345678900.</p>
+            </div>
+            <div class="col-lg-3 text-center">
+              <a class="cta-btn" style="vertical-align: middle!important;" href="tel:+6012345678900" target="_blank"><i class="icon-phone" aria-hidden="true"></i></a>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="site-section" id="contact-section">
+        <div class="container">
+          <div class="row justify-content-center">
+            <div class="col-md-7">
+              <h3 class="section-title mb-3">Subscribe</h3>
+              <form action="https://bagosproperti.us19.list-manage.com/subscribe/post?u=4793ff4ea3b5efc715eca5854&amp;id=4646b93f96&amp;f_id=001b95e4f0" method="post" id="mc-embedded-subscribe-form" name="mc-embedded-subscribe-form" class="validate" target="_blank" novalidate>
+                <div class="d-flex mb-5" id="mc_embed_signup_scroll">
+                  <input type="text" class="form-control rounded-0" name="b_4793ff4ea3b5efc715eca5854_4646b93f96" tabindex="-1" value="" placeholder="Email">
+                  <input type="submit" class="btn btn-primary rounded-0" value="Submit" name="subscribe" id="mc-embedded-subscribe">
+                </div>
+              </form>
+            </div>
+          </div>
+          <div class="row justify-content-center">
+            <div class="col-md-7">
+              <p>Or connect with us</p>
+              <a href="#" title="Facebook"><i class="icon-facebook" aria-hidden="true"></i></a>&nbsp;&nbsp;
+              <a href="#" title="Instagram"><i class="icon-instagram" aria-hidden="true"></i></a>&nbsp;&nbsp;
+              <a href="#" title="Twitter"><i class="icon-twitter" aria-hidden="true"></i></a>&nbsp;&nbsp;
+              <a href="#" title="YouTube"><i class="icon-play" aria-hidden="true"></i></a>
+            </div>
+          </div>
+        </div>
+      </div>
+
+
+      <footer class="footer-section">
+        <div class="container">
+          <div class="row text-center">
+            <div class="col-md-12">
+              <p>Copyright &copy; 2022 Capital A Berhad. This website is owned and operated by AirAsia Com Travel Sdn Bhd (201301020508), a registered travel agency (KPK/LN License No: 8287). Your usage of this website indicates that you agree to be bound by our <a target="_blank" href="https://www.airasia.com/aa/about-us/en/gb/terms-and-conditions.html" title="Terms and Conditions" size="XSmall" color="primary" tabindex="0">Terms and Conditions</a>, <a target="_blank" href="https://www.airasia.com/aa/about-us/en/gb/terms-of-use.html" title="Terms of Use" size="XSmall" color="primary" tabindex="0">Terms of Use</a> and <a target="_blank" href="https://www.airasia.com/aa/about-us/en/gb/privacy-statement.html" title="Privacy Statement" size="XSmall" color="primary" tabindex="0">Privacy Statement</a>.</p>
+            <p>
+              <a target="_blank" href="https://ir.airasia.com/corporate_structure.html" title="AirAsia Berhad (Malaysia)" size="XSmall" color="primary" tabindex="0">AirAsia Berhad (Malaysia)</a>&nbsp;|&nbsp;<a target="_blank" href="https://www.aavplc.com/en/thai-airasia-taa/organisation-structure" title="Thai AirAsia Co. Ltd" size="XSmall" color="primary" tabindex="0">Thai AirAsia Co. Ltd</a>&nbsp;|&nbsp;<a target="_blank" href="https://www.airasia.com/aa/about-us/en/gb/airasia-indonesia-organizational-structure.html" title="PT Indonesia AirAsia" size="XSmall" color="primary" tabindex="0">PT Indonesia AirAsia</a>&nbsp;|&nbsp;<a target="_blank" href="https://www.airasia.com/aa/about-us/en/gb/airasia-philippine-organizational-structure.html" title="Philippines AirAsia Inc." size="XSmall" color="primary" tabindex="0">Philippines AirAsia Inc.</a>&nbsp;|&nbsp;<a target="_blank" href="https://www.airasia.com/aa/about-us/en/gb/airasia-india-organizational-structure.html" title="AirAsia (India) Limited" size="XSmall" color="primary" tabindex="0">AirAsia (India) Limited</a>
+            </p>
+            </div>
+          </div>
+        </div>
+      </footer>
+    </div>
+    <script type='text/javascript' src='//s3.amazonaws.com/downloads.mailchimp.com/js/mc-validate.js'></script>
+    <script type='text/javascript'>(function($) {window.fnames = new Array(); window.ftypes = new Array();fnames[0]='EMAIL';ftypes[0]='email';fnames[1]='FNAME';ftypes[1]='text';fnames[2]='LNAME';ftypes[2]='text';fnames[3]='ADDRESS';ftypes[3]='address';fnames[4]='PHONE';ftypes[4]='phone';fnames[5]='BIRTHDAY';ftypes[5]='birthday';}(jQuery));var $mcj = jQuery.noConflict(true);</script>
+    <script>
+        function toggleText1() {
+            var points1 = 
+                document.getElementById("points1");
+            var showMoreText1 =
+                document.getElementById("moreText1");
+            var buttonText1 =
+                document.getElementById("textButton1");
+            if (points1.style.display === "none") {
+                showMoreText1.style.display = "none";
+                points1.style.display = "inline";
+                buttonText1.innerHTML = "[ Read more ]";
+            } else {
+                showMoreText1.style.display = "inline";
+                points1.style.display = "none";
+                buttonText1.innerHTML = "[ Hide ]";
+            }
+        }
+    </script>
+    <script>
+      (function(d,t) {
+        var BASE_URL="https://app.chatwoot.com";
+        var g=d.createElement(t),s=d.getElementsByTagName(t)[0];
+        g.src=BASE_URL+"/packs/js/sdk.js";
+        g.defer = true;
+        g.async = true;
+        s.parentNode.insertBefore(g,s);
+        g.onload=function(){
+          window.chatwootSDK.run({
+            websiteToken: 'SdzhUfiuNaqt4sKkcGVvuBNd',
+            baseUrl: BASE_URL
+          })
+        }
+      })(document,"script");
+    </script>
+    <script>
+      document.addEventListener('DOMContentLoaded', event => {
+        const db = firebase.firestore();
+        const myProducts = db.collection('fl_content');
+        const productsContainer = document.querySelector('#products__container');
+        function renderProduct(doc) {
+          const docFrag = document.createDocumentFragment();
+          let article = document.createElement('article');
+          let productKonten = document.createElement('div');
+          article.setAttribute('id', doc.id); 
+          productKonten.innerHTML = doc.data().konten;
+          docFrag.appendChild(productKonten); 
+          article.appendChild(docFrag);
+          productsContainer.appendChild(article);
+        }
+        myProducts.onSnapshot(products => {
+          products.forEach(doc => {
+            data = doc.data();
+            console.log(data);
+            renderProduct(doc);
+          });
+        });
+      });
+    </script>
+    <script src="js/jquery-3.3.1.min.js"></script>
+    <script src="js/jquery-migrate-3.0.1.min.js"></script>
+    <script src="js/jquery-ui.js"></script>
+    <script src="js/popper.min.js"></script>
+    <script src="js/bootstrap.min.js"></script>
+    <script src="js/owl.carousel.min.js"></script>
+    <script src="js/jquery.stellar.min.js"></script>
+    <script src="js/jquery.countdown.min.js"></script>
+    <script src="js/bootstrap-datepicker.min.js"></script>
+    <script src="js/jquery.easing.1.3.js"></script>
+    <script src="js/aos.js"></script>
+    <script src="js/jquery.fancybox.min.js"></script>
+    <script src="js/jquery.sticky.js"></script>
+    <script src="js/jquery.mb.YTPlayer.min.js"></script>
+    <script src="js/main.js"></script>
   </body>
 </html>

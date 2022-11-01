@@ -1,25 +1,21 @@
-import logo from './logo.svg';
 import './App.css';
-
+import "./fonts/icomoon/style.css";
+import "./css/bootstrap.min.css";
+import "./css/jquery-ui.css";
+import "./css/owl.carousel.min.css";
+import "./css/owl.theme.default.min.css";
+import "./css/jquery.fancybox.min.css";
+import "./css/bootstrap-datepicker.css";
+import "./fonts/flaticon/font/flaticon.css";
+import "./css/aos.css";
+import Header from "./components/header";
+ 
 function App() {
   return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
+    <div>
+      <Header />
     </div>
   );
 }
-
+ 
 export default App;

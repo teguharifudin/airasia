@@ -1,0 +1,63 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9" xmlns:image="http://www.google.com/schemas/sitemap-image/1.1">
+  <url>
+    <loc>https://airasia-7c240.web.app</loc>
+    <lastmod>2022-10-04T18:40:16+00:00</lastmod>
+    <changefreq>daily</changefreq>
+    <priority>1.0</priority>
+    <image:image>
+        <image:loc>https://airasia-7c240.web.app/airasia.jpg</image:loc>
+        <image:title>airasia Promotions 2022</image:title>
+    </image:image>
+  </url>
+  <url>
+    <loc>https://airasia-7c240.web.app/super-fast-sale-hotels.html</loc>
+    <lastmod>2022-10-04T18:40:16+00:00</lastmod>
+    <changefreq>daily</changefreq>
+    <priority>1.0</priority>
+    <image:image>
+        <image:loc>https://firebasestorage.googleapis.com/v0/b/airasia-7c240.appspot.com/o/flamelink%2Fmedia%2Fsuper-flash-sale-hotels.jpg?alt=media&amp;token=6752d08f-b8a4-4b63-b2ef-2e2de2bce61f</image:loc>
+        <image:title>Super Fast Sale Hotels</image:title>
+    </image:image>
+  </url>
+  <url>
+    <loc>https://airasia-7c240.web.app/easy-top-up-with-us.html</loc>
+    <lastmod>2022-10-04T18:40:16+00:00</lastmod>
+    <changefreq>daily</changefreq>
+    <priority>1.0</priority>
+    <image:image>
+        <image:loc>https://firebasestorage.googleapis.com/v0/b/airasia-7c240.appspot.com/o/flamelink%2Fmedia%2Feasy-top-up-with-us.jpg?alt=media&amp;token=c159a822-9ab6-4aec-9a70-9504bd08be5c</image:loc>
+        <image:title>Easy Top Up with Us</image:title>
+    </image:image>
+  </url>
+  <url>
+    <loc>https://airasia-7c240.web.app/super-fest-2022.html</loc>
+    <lastmod>2022-10-04T18:40:16+00:00</lastmod>
+    <changefreq>daily</changefreq>
+    <priority>1.0</priority>
+    <image:image>
+        <image:loc>https://firebasestorage.googleapis.com/v0/b/airasia-7c240.appspot.com/o/flamelink%2Fmedia%2Fsuper-fest-2022.jpg?alt=media&amp;token=d482a57a-1e6d-4363-bbbf-d40fe8342efa</image:loc>
+        <image:title>Super Fest 2022</image:title>
+    </image:image>
+  </url>
+  <url>
+    <loc>https://airasia-7c240.web.app/enjoy-food.html</loc>
+    <lastmod>2022-10-04T18:40:16+00:00</lastmod>
+    <changefreq>daily</changefreq>
+    <priority>1.0</priority>
+    <image:image>
+        <image:loc>https://firebasestorage.googleapis.com/v0/b/airasia-7c240.appspot.com/o/flamelink%2Fmedia%2Fenjoy-food-delivery.jpg?alt=media&amp;token=43d18945-c35e-4259-8ba5-746f7c031c42</image:loc>
+        <image:title>Enjoy Food</image:title>
+    </image:image>
+  </url>
+  <url>
+    <loc>https://airasia-7c240.web.app/travel-deals-on-flights.html</loc>
+    <lastmod>2022-10-04T18:40:16+00:00</lastmod>
+    <changefreq>daily</changefreq>
+    <priority>1.0</priority>
+    <image:image>
+        <image:loc>https://firebasestorage.googleapis.com/v0/b/airasia-7c240.appspot.com/o/flamelink%2Fmedia%2Ftravel-deals-on-flights.jpg?alt=media&amp;token=1c96493c-94e4-4f32-83f5-c00eb4ba1c76</image:loc>
+        <image:title>Travel Deals on Flights</image:title>
+    </image:image>
+  </url>
+</urlset>
