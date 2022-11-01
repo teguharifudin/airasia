@@ -47,4 +47,4 @@ Demo:
 
 More information:
 
-> https://www.teguharief.com//firebase-node-js-and-react-on-macos
+> https://www.teguharief.com/firebase-node-js-and-react-on-macos
