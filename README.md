@@ -21,7 +21,7 @@ $ airasia ls    # OR `airasia list`
 
 Output:
 
-> Firebase, Firebase Hosting, Cloud Firestore, Flamelink, HTML, CSS, Sass, Bootstrap, JavaScript, Git, XML, Mailchimp, Chatwoot
+> React SPA campaign website, Firebase cloud storage, and Flamelink.
 
 ## Contributing
 
@@ -36,7 +36,6 @@ PRs are welcome. To begin developing, do this:
 ```bash
 $ git clone git@github.com:teguharifudin/airasia.git
 $ cd airasia/
-$ go run *.go
 ```
 
 Demo:
