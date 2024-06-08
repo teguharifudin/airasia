@@ -37,8 +37,6 @@ class Promotions extends Component {
   componentDidMount() {
     this.getData();
   }
-
-  executeOnClick(isExpanded) { console.log(isExpanded); }
   
   render() {
     return (
