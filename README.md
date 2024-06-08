@@ -35,6 +35,8 @@ PRs are welcome. To begin developing, do this:
 
 ```bash
 $ npm run start
+$ npm run build
+$ firebase deploy
 ```
 
 Demo:
