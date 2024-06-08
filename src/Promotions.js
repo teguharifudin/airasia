@@ -1,6 +1,7 @@
 import React, { Component } from "react";
 import { Helmet } from "react-helmet";
 import { db } from "./services/firebase";
+import ReactHTMLParser from "html-react-parser";
 
 class Promotions extends Component {
 
@@ -18,21 +19,18 @@ class Promotions extends Component {
   onCollectionUpdate = (querySnapshot) => {
     const fl_content = [];
     querySnapshot.forEach((doc) => {
-      const { judul } = doc.data();
+      const { judul, konten } = doc.data();
       fl_content.push({
         // key: doc.id,
-        // doc,
+        // doc, // DocumentSnapshot
         judul,
-        // konten
+        konten
       });
     });
-    this.setState(
-      { data: fl_content },
-      () => {
-        console.log(this.state.data);
-      },
-    );
-  };
+    this.setState({
+      fl_content
+    });
+  }
   getData(){
     this.unsubscribe = this.ref.onSnapshot(this.onCollectionUpdate)
   }
@@ -63,7 +61,11 @@ class Promotions extends Component {
             </div>
             <div className="outer-wrapper">
               <div className="inner-wrapper" id="products__container">
-                {JSON.stringify(this.state.data)}
+                {this.state.fl_content.map(dataItem => (
+                  <div key={dataItem.id}>
+                    { ReactHTMLParser(dataItem.konten) }
+                  </div>
+                ))}
               </div>
             </div>
           </div>
