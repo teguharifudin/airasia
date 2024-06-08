@@ -8,7 +8,7 @@
 
 ```bash
 $ git clone git@github.com:teguharifudin/airasia.git
-$ cd airasia/
+$ cd airasia
 ```
 
 ## Usage
@@ -34,8 +34,7 @@ Please use the [issue tracker](https://github.com/teguharifudin/airasia/issues) 
 PRs are welcome. To begin developing, do this:
 
 ```bash
-$ git clone git@github.com:teguharifudin/airasia.git
-$ cd airasia/
+$ npm run start
 ```
 
 Demo:
