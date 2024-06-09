@@ -41,4 +41,4 @@ $ firebase deploy
 
 Demo:
 
-> <a href="[http://google.com/](https://airasia-7c240.web.app/)" target="_blank">Link</a>
+> https://airasia-7c240.web.app/
