@@ -41,4 +41,4 @@ $ firebase deploy
 
 Demo:
 
-> https://airasia-7c240.web.app/
+> [https://airasia-7c240.web.app/](https://airasia-7c240.web.app/ {:target="_blank" rel="noopener"})
