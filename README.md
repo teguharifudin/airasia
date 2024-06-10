@@ -8,6 +8,8 @@
 
 ```bash
 $ git clone git@github.com:teguharifudin/airasia.git
+```
+```
 $ cd airasia
 ```
 
