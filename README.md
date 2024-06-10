@@ -6,7 +6,7 @@
 
 ### From source
 
-```bash
+```
 $ git clone git@github.com:teguharifudin/airasia.git
 ```
 ```
@@ -17,7 +17,7 @@ $ cd airasia
 
 ### List all available files
 
-```bash
+```
 $ airasia ls    # OR `airasia list`
 ```
 
