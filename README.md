@@ -7,10 +7,10 @@
 ### From source
 
 ```
-$ git clone git@github.com:teguharifudin/airasia.git
+git clone git@github.com:teguharifudin/airasia.git
 ```
 ```
-$ cd airasia
+cd airasia
 ```
 
 ## Usage
@@ -18,7 +18,7 @@ $ cd airasia
 ### List all available files
 
 ```
-$ airasia ls    # OR `airasia list`
+airasia ls    # OR `airasia list`
 ```
 
 Output:
@@ -35,10 +35,14 @@ Please use the [issue tracker](https://github.com/teguharifudin/airasia/issues) 
 
 PRs are welcome. To begin developing, do this:
 
-```bash
-$ npm run start
-$ npm run build
-$ firebase deploy
+```
+npm run start
+```
+```
+npm run build
+```
+```
+firebase deploy
 ```
 
 Demo:
