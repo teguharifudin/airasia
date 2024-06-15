@@ -44,7 +44,3 @@ npm run build
 ```
 firebase deploy
 ```
-
-Demo:
-
-> https://airasia-7c240.web.app/
